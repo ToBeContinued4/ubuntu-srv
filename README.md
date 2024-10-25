@@ -231,7 +231,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 - Reiniciar apache: ```sudo systemctl restart apache2```
 
-# Verificar que se ha cambiado buscando "www.ola.cu" en un navegador
+## Verificar que se ha cambiado buscando "www.ola.cu" en un navegador
 
 # Nota #
 
