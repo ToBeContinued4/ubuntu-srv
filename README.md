@@ -3,6 +3,25 @@
 - Actualizamos:
 ```sudo apt update && sudo apt upgrade```
 
+# ---------- VBox Guest Additions ---------- #
+
+- Paquetes requeridos
+```
+sudo apt install build-essential linux-headers-$(uname -r) -y
+```
+
+- Monta las Guest Additions desde la parte de Dispositivos dentro de la máquina
+
+- Instalar las VBox Guest Additions
+```
+cd /media/linuxtechi/VBox_GAs_7.0.4/
+```
+```
+sudo ./VBoxLinuxAdditions.run
+```
+
+- Reiniciamos la máquina
+
 # ---------- Tarjeta de red ---------- #
 
 - Comando del fichero de configuración:
@@ -33,7 +52,7 @@ network:
 sudo netplan apply
 ```
 
-- Probar que funcinoa (recibes respuesta si salió todo bien):
+- Probar que funciona (recibes respuesta si salió todo bien):
 ```
 ping www.google.es
 ```
