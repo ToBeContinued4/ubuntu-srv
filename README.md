@@ -1,7 +1,12 @@
 # ///// Ubuntu - Srv /////
 
 - Actualizamos:
-```sudo apt update && sudo apt upgrade```
+```
+sudo apt update
+```
+```
+sudo apt upgrade
+```
 
 # ---------- VBox Guest Additions ---------- #
 
@@ -356,7 +361,7 @@ sudo systemctl restart apache2
 
 # Nota #
 
-- Cambiar el resolv con
+- Cambiar el resolv
 ```
 sudo vim /etc/resolv.conf
 ```
